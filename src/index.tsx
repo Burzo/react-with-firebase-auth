@@ -60,7 +60,7 @@ const withFirebaseAuth = ({
       })`;
 
       state = {
-        loading: false,
+        loading: true,
         user: undefined,
         error: undefined,
       };
